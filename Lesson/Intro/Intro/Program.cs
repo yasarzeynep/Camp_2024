@@ -24,11 +24,11 @@ else
 
 }
 
-string [] loans = { "Kredi 1", "Kredi 2", "Kredi 3", "Kredi 4", "Kredi 5", "Kredi 6" }; //db den gelecek
-//string [] loans2= new string[6];
-//loans [0]="Kredi 1";
+string[] loans = { "Kredi 1", "Kredi 2", "Kredi 3", "Kredi 4", "Kredi 5", "Kredi 6" }; //db den gelecek
+                                                                                       //string [] loans2= new string[6];
+                                                                                       //loans [0]="Kredi 1";
 
-     //start    //condition      //increment
+//start    //condition      //increment
 for (int i = 0; i < loans.Length; i++)
 {
     Console.WriteLine(loans[i]);
@@ -57,7 +57,7 @@ Course[] courses = { course1, course2, course3 };
 
 for (int i = 0; i < courses.Length; i++)
 {
-Console.WriteLine(courses[i].Name + "/"+ courses[i].Price);
+    Console.WriteLine(courses[i].Name + "/" + courses[i].Price);
 
 }
 
@@ -113,7 +113,7 @@ Console.WriteLine(cities2[0]);
 //value types-->int, bool, double...
 //reference types-->array, class, interface...
 
-                              //101        //102     //103      //104
+//101        //102     //103      //104
 BaseCustomer[] customers = { customer1, customer2, customer3, customer4 };
 
 //polymorphism
