@@ -3,6 +3,11 @@
 //WhileLoop();
 //DoWhileLoop();ForeachLoop();
 
+if(IsPrimeNumber(7))
+    Console.WriteLine("This is a prime Number");
+else
+    Console.WriteLine("This is not a prime Number");
+
 #region for-loop
 static void FoorLoop()
 {
@@ -49,3 +54,17 @@ static void ForeachLoop()
     }
 }
 #endregion
+
+ static bool IsPrimeNumber(int number)
+{
+    bool result = true;
+    for (int i = 2; i < number - 1; i++)
+    {
+        if (number % i == 0)
+        {
+            result = false;
+            i = number;
+        }
+    }
+    return result;
+}
